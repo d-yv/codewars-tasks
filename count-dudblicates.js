@@ -22,7 +22,7 @@ function countingDublicates(str) {
     }
   }
 
-  return Array.from(duplicates).length;
+  return duplicates.size;
 }
 
 console.log(countingDublicates("aabBcde"), "aabBcde");
